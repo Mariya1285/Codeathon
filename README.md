@@ -1,5 +1,4 @@
-# FaceRec
-A simple working facial recognition program.
+# A simple working facial recognition program.
 
 
 ## Installation:
@@ -9,7 +8,7 @@ A simple working facial recognition program.
     
         Then extract those files into models
 
-    3. Run main.py
+    3. Run run_script.py
 
 ## Requirements:
     Python3 (3.5 ++ is recommended)
@@ -24,23 +23,20 @@ A simple working facial recognition program.
 
 
 ## Howto:
-    `python3 main.py` to run the program
-    `python3 main.py --mode "input"` to add new user. Start turning left, right, up, down after inputting the new name. Turn slowly to avoid blurred images
+    `python3 run_script.py` to run the program
+   Enter new name in the text field of the UI and submit the new user button to add new user. Start turning left, right, up, down after inputting the new name. Turn slowly to avoid blurred images
 
 To achieve best accuracy, please try to mimick what I did here in this gif while inputting new subject:
     
 ![GIF Demo](https://media.giphy.com/media/3o7aD7CZ6C3RLCvLgs/giphy.gif)
 
         
-### Flags:
-   `--mode "input"` to add new user into the data set
     
 
 
 ## General Information:
-Project: Facial Recogition
+Project: Facial Recogition for E-VOTING(GHCI CODEATHON)
 
-This is a simple minified version of a bigger project I was working on this summer.
 
 ### Info on the models I used:
 
@@ -72,12 +68,6 @@ Given the constrain of the facenet model's accuracy, there are many ways you can
 
 This will definitely improve your program liability, because the result will most likely be leaning toward the right subject in the picture after some number of frames, instead of just deciding right away after 1 frame like you normally would. One benefit of this approach is that the longer the person stays in front of the camera, the more accurate and confident the result is, as confidence points get incremented over time.
 Also, you can do some multi-threading/processing tricks to improve performance.
-
-### Demos:
-
-![GIF Demo](https://media.giphy.com/media/l378mx3j8ZsWlOuze/giphy.gif)
-
-Live demo: https://www.youtube.com/watch?v=6CeCheBN0Mg
 
 
 
