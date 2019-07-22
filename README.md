@@ -1,4 +1,4 @@
-# A simple working facial recognition program.
+# GHCI CODEATHON - FACIAL RECOGNITION FOR E-VOTING
 
 
 ## Installation:
